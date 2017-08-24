@@ -5,11 +5,10 @@ import {Config} from '../../config/Config';
 export default class RegisterData{
   /**
    * This class registers states and state changes and a Config object
-   * Type __faster__ (or the name of the app defined in config/Config)
+   * Type blockIt (or the name of the app defined in config/Config)
    * in console to view the object and it's properties
-   * @param {string} obj
-   * @param {string} val
-   * @param {string=} parent
+   * @param {object[]} data
+   * @param {string=} handle
    */
   constructor(data,handle){
     this.data = data;

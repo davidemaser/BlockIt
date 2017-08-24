@@ -1,0 +1,51 @@
+{
+  "config":{
+    "rules":[
+      {
+        "key":"click",
+        "action":"onClick",
+        "interactions":[
+          {
+            "item":"button",
+            "handle":"default",
+            "required":true
+          },
+          {
+            "item":"div",
+            "handle":"collect",
+            "required":false
+          },
+          {
+            "item":"a",
+            "handle":"default",
+            "required":false
+          },
+          {
+            "item":"*",
+            "handle":"evaluate",
+            "required":false
+          }
+        ]
+      }
+    ],
+    "components":[
+      {
+        "name":"pageLayout",
+        "executes":"onDomReady",
+        "exits":"onLoad",
+        "requires":["domViewer","tagCleaner","appCache"]
+      },{
+        "name":"pageDistribution",
+        "executes":"onDomReady",
+        "exits":"onLoad",
+        "requires":["domViewer","tagCleaner","appCache"]
+      }
+    ],
+    "general":{
+
+    },
+    "mount":{
+
+    }
+  }
+}

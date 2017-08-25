@@ -5,7 +5,7 @@ import {Config} from '../../config/Config';
 export default class RegisterState{
   /**
    * This class registers states and state changes and a Config object
-   * Type __faster__ (or the name of the app defined in config/Config)
+   * Type blockIt (or the name of the app defined in config/Config)
    * in console to view the object and it's properties
    * @param {string} obj
    * @param {string} val

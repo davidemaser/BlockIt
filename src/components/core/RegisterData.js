@@ -4,7 +4,6 @@
 import {Config} from '../../config/Config';
 export default class RegisterData{
   /**
-   * This class registers states and state changes and a Config object
    * Type blockIt (or the name of the app defined in config/Config)
    * in console to view the object and it's properties
    * @param {object[]} data
